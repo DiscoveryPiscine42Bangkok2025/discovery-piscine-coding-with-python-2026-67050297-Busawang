@@ -1,9 +1,9 @@
 i = 0
 while i <= 10:
-    print("Table de", i, ":",end="")
+    print("Table de " + str(i) + ":", end="")
     j = 0
     while j <= 10:
-        print(i * j, " ",end="")
+        print(" " + str(i * j), end="")
         j += 1
     print()
     i += 1
